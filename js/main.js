@@ -1,4 +1,4 @@
-const fetchUsers = async () => await (await fetch('/.netlify/functions/getusers')).json()
+const fetchUsers = async () => await (await fetch('/.netlify/functions/getUsers')).json()
 // 'http://localhost:9000/getusers'
 
 fetchUsers().then((data) => {
